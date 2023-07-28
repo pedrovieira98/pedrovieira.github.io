@@ -1,0 +1,33 @@
+* === IMPORT */
+
+/* Fonts */
+@font-face{
+	font-family: 'Andes Bold';
+	src: url('../fonts/andes-bold-webfont.eot');
+	src: url('../fonts/andes-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/andes-bold-webfont.woff') format('woff'),
+	     url('../fonts/andes-bold-webfont.ttf') format('truetype'),
+	     url('../fonts/andes-bold-webfont.svg#andes-bold-webfont') format('svg');
+}
+
+@font-face{
+	font-family: 'Texgyre Adventor';
+	src: url('../fonts/texgyreadventor-bold-webfont.eot');
+	src: url('../fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/texgyreadventor-bold-webfont.woff') format('woff'),
+	     url('../fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
+	     url('../fonts/texgyreadventor-bold-webfont.svg#texgyreadventor-bold-webfont') format('svg');
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* === CONFIG */
+
+/* Atribuindo a cor amarela no Body da web page */
+body{
+	background: rgb( 254, 200, 46 );
+	font-size: 1.5em; /* Solicitação do Bruno por alteração de fonte */
+}
+a{ text-decoration: none; }
+
+/*--------------------------------------------------------------------------------------------------*/
